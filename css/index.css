@@ -6376,8 +6376,14 @@ blockquote.pullquote.right {
   -webkit-line-clamp: 1;
 }
 #recent-posts .recent-post-item .post_cover .post-bg {
-  object-fit: contain;
+  object-fit: cover;
   height: 252px;
+}
+#recent-posts .recent-post-item .post_cover.single {
+  padding: 6px;
+}
+#recent-posts .recent-post-item .post_cover.single .post-bg {
+  border-radius: 4px;
 }
 #recent-posts .recent-post-item .post_cover .multi-cover-wrap {
   position: relative;

@@ -129,15 +129,38 @@ document.addEventListener('DOMContentLoaded', function () {
         img2.className = 'post-bg cover-2';
         img2.src = cover2;
         img2.alt = post.title;
-        img2.onerror = function() { this.style.display = 'none'; };
+        var failed2 = false;
+        img2.onerror = function() { 
+          this.style.display = 'none'; 
+          failed2 = true;
+          checkFallback();
+        };
         multiWrap.appendChild(img2);
 
         var img3 = document.createElement('img');
         img3.className = 'post-bg cover-3';
         img3.src = cover3;
         img3.alt = post.title;
-        img3.onerror = function() { this.style.display = 'none'; };
+        var failed3 = false;
+        img3.onerror = function() { 
+          this.style.display = 'none'; 
+          failed3 = true;
+          checkFallback();
+        };
         multiWrap.appendChild(img3);
+
+        var checkFallback = function() {
+          setTimeout(function(){
+            if (failed2 && failed3) {
+              coverWrap.classList.remove('horizontal');
+              coverWrap.classList.add('single');
+              multiWrap.style.padding = '0';
+              multiWrap.style.gap = '0';
+              if (img2.parentNode) img2.remove();
+              if (img3.parentNode) img3.remove();
+            }
+          }, 100);
+        };
 
         link.appendChild(multiWrap);
       } else {
