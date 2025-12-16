@@ -1,0 +1,20 @@
+ 
+/* 首页图片 */
+#recent-posts>.recent-post-item .post_cover .post-bg {
+    object-fit: contain;
+}
+
+/* 发表时间 */
+.post-meta-date {
+    display: none;
+}
+
+/* post详情页 meta发表时间后的 竖线 | */
+#post-info #post-meta .post-meta-separator:nth-child(1) {
+    display: none;
+}
+
+/* 隐藏 archived aside侧边栏头像下的 **/
+#aside-content .card-info-data a[href="/archives/"] {
+    display: none;
+}

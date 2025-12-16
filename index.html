@@ -1,0 +1,235 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>👋Harry App Studio - AI应用开发 独立开发 移动应用开发 Python开发 小程序开发 H5开发 公众号开发 微信开发 青岛定制开发</title><meta name="author" content="Harry"><meta name="copyright" content="Harry"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><script src="/app/js/allpost_data.js"></script><meta property="og:type" content="website">
+<meta property="og:title" content="👋Harry App Studio">
+<meta property="og:url" content="https://harry-studio.github.io/app/index.html">
+<meta property="og:site_name" content="👋Harry App Studio">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="Harry">
+<meta name="twitter:card" content="summary"><link rel="shortcut icon" href="/app/"><link rel="canonical" href="https://harry-studio.github.io/app/index.html"><link rel="preconnect"/><link rel="stylesheet" href="/app/css/index.css"><link rel="stylesheet" href="/app/pluginsSrc/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="/app/pluginsSrc/@fancyapps/ui/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/app/',
+  algolia: undefined,
+  localSearch: {"path":"/app/search.json","preload":true,"top_n_per_article":1,"unescape":true,"languages":{"hits_empty":"No results found for: ${query}","hits_stats":"${hits} articles found"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Failed',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: '/app/pluginsSrc/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '👋Harry App Studio',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'home'
+}</script><link rel="stylesheet" href="/app/my/theme/css/work.css"><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/app/atom.xml" title="👋Harry App Studio" type="application/atom+xml">
+</head><body><script>window.paceOptions = {
+  restartOnPushState: false
+}
+
+btf.addGlobalFn('pjaxSend', () => {
+  Pace.restart()
+}, 'pace_restart')
+
+</script><link rel="stylesheet" href="/app/pluginsSrc/pace-js/themes/blue/pace-theme-minimal.css"/><script src="/app/pluginsSrc/pace-js/pace.min.js"></script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/app/null" onerror="this.onerror=null;this.src='/app/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/app/archives/"><div class="headline">Articles</div><div class="length-num">1</div></a><a href="/app/tags/"><div class="headline">Tags</div><div class="length-num">1</div></a><a href="/app/categories/"><div class="headline">Categories</div><div class="length-num">1</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/app/"><span> 🏠Home</span></a></div><div class="menus_item"><a class="site-page" href="https://harry-studio.github.io/blog/about/"><span> 🧑‍💻About</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/app/"><span class="site-name">👋Harry App Studio</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> Search</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/app/"><span> 🏠Home</span></a></div><div class="menus_item"><a class="site-page" href="https://harry-studio.github.io/blog/about/"><span> 🧑‍💻About</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><h1 class="title-seo">👋Harry App Studio</h1></header><main class="layout hide-aside" id="content-inner"><div class="harry-nav-all category-nav"><div class="harry-nav-list-all category-nav-list"><div class="harrytype-name">Type</div><div class="harry-nav-item-all category-nav-item" data-category="all"><span class="category-name">All</span><span class="harry-count-all">(1)</span></div><div class="harry-nav-item-all category-nav-item" data-category="iPhone"><span class="category-name">iPhone </span><span class="harry-count-all">(1)</span></div></div><!-- hide years cate--><div class="tag-nav"><div class="tag-nav-list harry-nav-list-all"><div class="harrytype-name">Tag</div><div class="tag-nav-item harry-nav-item-all" data-tag="all"><span class="tag-name">All</span></div><div class="tag-nav-item harry-nav-item-all" data-tag="Health"><span class="tag-name">Health </span><span class="harry-count-all">(1)</span></div></div></div></div><div class="recent-posts nc" id="recent-posts"><div class="recent-post-items"><div class="recent-post-item"><div class="post_cover  horizontal"><a href="/app/p/13912/" title="Esay Period - Elegant Period Tracking App"><div class="multi-cover-wrap"><img class="post-bg cover-1" src="https://harry-studio.github.io/app/my/project/esay-period/1.png" onerror="this.onerror=null;this.src='/app/img/404.jpg'" alt="Esay Period - Elegant Period Tracking App"><img class="post-bg cover-2" src="https://harry-studio.github.io/app/my/project/esay-period/2.png" onerror="this.style.display='none'" alt="Esay Period - Elegant Period Tracking App"><img class="post-bg cover-3" src="https://harry-studio.github.io/app/my/project/esay-period/3.png" onerror="this.style.display='none'" alt="Esay Period - Elegant Period Tracking App"></div></a></div><div class="recent-post-info"><a class="article-title" href="/app/p/13912/" title="Esay Period - Elegant Period Tracking App">Esay Period - Elegant Period Tracking App</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2025-12-31T16:00:00.000Z" title="Created 2026-01-01 00:00:00">2026-01-01</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/app/categories/iPhone/">iPhone</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/app/tags/Health/">Health</a></span></div><div class="content">Esay Period is a period tracking and management app designed for women, built with native SwiftUI technology to provide a simple, private, and reliable cycle tracking experience. 🌟 Key Features📅 Smart Cycle Management Quick Recording: Easily log period start and end dates Smart Prediction: Automatically predict next period based on historical data Cycle Statistics: Auto-calculate average cycle, shortest&#x2F;longest cycles Calendar View: Intuitive calendar interface for viewing history at...</div></div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav><script>(function(){
+  const nav = document.getElementById('pagination');
+  if(nav){
+    nav.style.display='none';
+  }
+  const container = document.querySelector('#recent-posts .recent-post-items');
+  if(!container) return;
+  // Extract next page URL from paginator (Hexo outputs a link rel or anchor). We search for .next a
+  function findNextUrl(){
+    if(!nav) return null;
+    const nextLink = nav.querySelector('.next');
+    if(nextLink){
+      // Could be span.next or a.next
+      const a = nextLink.tagName==='A'? nextLink : nextLink.querySelector('a');
+      return a ? a.getAttribute('href') : null;
+    }
+    return null;
+  }
+  let nextUrl = findNextUrl();
+  if(!nextUrl) return; // Only one page
+  let loading = false;
+  let ended = false;
+  const loadMoreWrap = document.createElement('div');
+  loadMoreWrap.className='load-more-wrap';
+  loadMoreWrap.innerHTML = '<button class="load-more-btn" type="button">加载更多</button><div class="load-more-status" style="display:none"><i class="fa-solid fa-spinner fa-spin"></i> 加载中...</div>';
+  nav.parentNode.insertBefore(loadMoreWrap, nav);
+  const btn = loadMoreWrap.querySelector('.load-more-btn');
+  const status = loadMoreWrap.querySelector('.load-more-status');
+  function showLoading(show){
+    if(show){ btn.style.display='none'; status.style.display='block'; }
+    else { btn.style.display='inline-block'; status.style.display='none'; }
+  }
+  function appendPosts(fragment){
+    const items = fragment.querySelectorAll('#recent-posts .recent-post-item');
+    items.forEach(it=>{
+      container.appendChild(it);
+    });
+    // re-init any scripts (e.g., lazyload, pjax) if theme exposes a global init
+    if(window?.Butterfly?.plugins?.reInit){
+      try{ window.Butterfly.plugins.reInit(); }catch(e){}
+    }
+  }
+  async function loadNext(){
+    if(loading||ended||!nextUrl) return; loading = true; showLoading(true);
+    try {
+      const res = await fetch(nextUrl, { credentials:'same-origin' });
+      if(!res.ok) throw new Error(res.status);
+      const html = await res.text();
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(html, 'text/html');
+      appendPosts(doc);
+      // Find new pagination in loaded page
+      const newNav = doc.querySelector('nav#pagination');
+      if(newNav){
+        const newNext = newNav.querySelector('.next');
+        if(newNext){
+          const a = newNext.tagName==='A'? newNext : newNext.querySelector('a');
+          nextUrl = a ? a.getAttribute('href') : null;
+        } else {
+          nextUrl = null;
+        }
+      } else {
+        nextUrl = null;
+      }
+      if(!nextUrl){
+        ended = true; btn.textContent='没有更多了'; btn.disabled=true; btn.style.opacity='0.6';
+      }
+    } catch(err){
+      console.error('加载失败', err);
+      btn.textContent='重试加载';
+    } finally {
+      loading=false; showLoading(false);
+    }
+  }
+  btn.addEventListener('click', loadNext);
+  // Infinite scroll: when near bottom auto-load
+  function onScroll(){
+    if(ended||loading) return;
+    const rect = loadMoreWrap.getBoundingClientRect();
+    if(rect.top < window.innerHeight + 120){
+      loadNext();
+    }
+  }
+  document.addEventListener('scroll', onScroll, { passive:true });
+})();</script><style>.load-more-wrap{ text-align:center; margin:2rem 0 1rem; }
+.load-more-btn{ cursor:pointer; background:var(--btn-bg,#007bff); color:#fff; border:0; padding:.6rem 1.2rem; border-radius:4px; font-size:14px; }
+.load-more-btn:hover{ filter:brightness(1.1); }
+.load-more-status{ font-size:14px; color:var(--font-color,#666); }</style></div><script src="/app/js/harry/category-filter.js"></script></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2017 - 2025 By Harry</div><div class="footer_custom_text"><a href="https://github.com/hexojs/hexo" target="_blank">Hexo 8.1.1</a> | <a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank">Butterfly 5.5.2</a></div><script src="/app/js/harry/index_showmore.js"></script></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Toggle Between Light and Dark Mode"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Settings"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/app/js/utils.js"></script><script src="/app/js/main.js"></script><script src="/app/pluginsSrc/@fancyapps/ui/dist/fancybox/fancybox.umd.js"></script><div class="js-pjax"></div><script src="/app/my/theme/js/work.js"></script><script src="/app/pluginsSrc/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+POWERMODE.mobile = true;
+document.body.addEventListener('input', POWERMODE);
+</script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  Loading Database</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Please enter your search query" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/app/js/search/local-search.js"></script></div></div></body></html>

@@ -1,0 +1,15 @@
+/* 主页右侧按钮 */
+#aside-content #card-info-btn{
+    margin: 0 auto;
+    width: 7rem;
+    border-radius: 20px;
+}
+
+/* 导航 hover效果 */
+#nav .site-page:not(.child):after{
+    background-color: #0ea06f;
+}
+
+#aside-content .avatar-img{
+    display: none;
+}
