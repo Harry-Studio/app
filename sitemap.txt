@@ -1,6 +1,6 @@
 https://harry-studio.github.io/app/p/13912/
-https://harry-studio.github.io/app/contact/index.html
 https://harry-studio.github.io/app/about/index.html
+https://harry-studio.github.io/app/contact/index.html
 https://harry-studio.github.io/app/tags/index.html
 https://harry-studio.github.io/app/categories/index.html
 https://harry-studio.github.io/app/404/index.html
