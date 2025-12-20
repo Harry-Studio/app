@@ -10,7 +10,7 @@ window.BLOG_POSTS = [
     "tags": [
       "Health"
     ],
-    "cover": "https://harry-studio.github.io/app/my/project/esay-period/1.png",
+    "cover": "https://harry-studio.github.io/app/my/project/esay-period/1.jpg",
     "description": null,
     "excerpt": ""
   }
