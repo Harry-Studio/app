@@ -6,7 +6,7 @@
   <link href="https://harry-studio.github.io/app/atom.xml" rel="self"/>
   
   <link href="https://harry-studio.github.io/app/"/>
-  <updated>2025-12-20T00:46:57.228Z</updated>
+  <updated>2025-12-25T02:47:33.695Z</updated>
   <id>https://harry-studio.github.io/app/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>WealthTrees - Private Wealth Tracker</title>
+    <link href="https://harry-studio.github.io/app/p/13913/"/>
+    <id>https://harry-studio.github.io/app/p/13913/</id>
+    <published>2026-01-01T16:00:00.000Z</published>
+    <updated>2025-12-25T02:47:33.695Z</updated>
+    
+    <content type="html"><![CDATA[<p>WealthTree is a lightweight personal finance app for organizing your assets into a clear “tree” structure—groups and assets—so you can see totals and allocations quickly. Track profit&#x2F;loss, review breakdowns, and keep your data synced across devices when you want to.</p><h3 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h3><p>WealthTree helps you understand your wealth at a glance.</p><p>Build a clear structure for your finances using a simple “tree” model: create groups (like Cash, Investments, Real Estate) and add assets under each group. See totals, allocations, and performance in one place.</p><p>Key features:</p><ul><li>Organize wealth with groups &amp; assets</li><li>Totals and allocation breakdowns</li><li>Profit&#x2F;loss tracking (amount and %)</li><li>Multi-currency support with exchange rates</li><li>Optional sync across devices</li><li>Export and sharing options</li></ul><p>Designed to be lightweight and easy to use—so you can update quickly and get clarity right away.</p><p><strong>Download WealthTrees now and start your private wealth management journey! 💰</strong></p><ul><li>Visit App Store: <a href="https://apps.apple.com/us/app/id6756702548">WealthTrees - Private Wealth Tracker</a></li></ul><p><a href="javascript:history.go(-1)">⬅return</a></p><script>// window.open("https://apps.apple.com/us/app/id6756702548");// javascript:history.go(-1)</script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;WealthTree is a lightweight personal finance app for organizing your assets into a clear “tree” structure—groups and assets—so you can se</summary>
+      
+    
+    
+    
+    <category term="iPhone" scheme="https://harry-studio.github.io/app/categories/iPhone/"/>
+    
+    
+    <category term="Wealth" scheme="https://harry-studio.github.io/app/tags/Wealth/"/>
+    
+  </entry>
   
   <entry>
     <title>Esay Period - Elegant Period Tracking App</title>
