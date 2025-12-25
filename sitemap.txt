@@ -6,6 +6,6 @@ https://harry-studio.github.io/app/tags/index.html
 https://harry-studio.github.io/app/categories/index.html
 https://harry-studio.github.io/app/404/index.html
 https://harry-studio.github.io/app
-https://harry-studio.github.io/app/tags/Wealth/
 https://harry-studio.github.io/app/tags/Health/
+https://harry-studio.github.io/app/tags/Wealth/
 https://harry-studio.github.io/app/categories/iPhone/
