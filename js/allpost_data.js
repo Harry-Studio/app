@@ -28,5 +28,20 @@ window.BLOG_POSTS = [
     "cover": "https://harry-studio.github.io/app/my/project/wealth/1.jpg",
     "description": null,
     "excerpt": ""
+  },
+  {
+    "title": "Pushup Bank - Push-up Counter & Stats",
+    "path": "p/52148/",
+    "date": "2025-12-01",
+    "year": 2025,
+    "categories": [
+      "iPhone"
+    ],
+    "tags": [
+      "Health"
+    ],
+    "cover": "https://harry-studio.github.io/app/my/project/push-up/1.jpg",
+    "description": "A lightweight push-up counter and log — permanently 100% free.",
+    "excerpt": ""
   }
 ];

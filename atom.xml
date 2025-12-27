@@ -64,4 +64,25 @@
     
   </entry>
   
+  <entry>
+    <title>Pushup Bank - Push-up Counter &amp; Stats</title>
+    <link href="https://harry-studio.github.io/app/p/52148/"/>
+    <id>https://harry-studio.github.io/app/p/52148/</id>
+    <published>2025-11-30T16:00:00.000Z</published>
+    <updated>2025-12-27T01:30:07.973Z</updated>
+    
+    <content type="html"><![CDATA[<p>Pushup Bank is a lightweight push-up counter and log — permanently 100% free (no subscriptions, no in-app purchases).</p><p>Tap anywhere to count during a session. End it manually (or let it auto-finish after inactivity) and your session is saved. Review your history with charts, sync across devices with iCloud (optional), and optionally write your push-up counts to Apple Health.</p><h3 id="Highlights"><a href="#Highlights" class="headerlink" title="Highlights"></a>Highlights</h3><ul><li>Fast tap-to-count sessions with a clean UI</li><li>Automatic session saving + editable history</li><li>Stats &amp; charts by day&#x2F;week&#x2F;month&#x2F;year</li><li>Reminders via local notifications (optional)</li><li>iCloud sync across devices (optional)</li><li>Apple Health integration (optional; write-only)</li><li>Export&#x2F;import your data as JSON</li></ul><h3 id="Why-choose-it"><a href="#Why-choose-it" class="headerlink" title="Why choose it"></a>Why choose it</h3><ul><li>No accounts, no ads, no analytics</li><li>Lightweight and distraction-free</li><li>Your data stays on your device (with optional iCloud sync)</li><li>Permanently 100% free — no subscriptions, no in-app purchases</li></ul><h3 id="Quick-start"><a href="#Quick-start" class="headerlink" title="Quick start"></a>Quick start</h3><ol><li>Open Pushup Bank and tap anywhere to count.</li><li>End the session manually (or wait for auto-finish after inactivity).</li><li>Check your history and charts, then set reminders if you want.</li><li>Export&#x2F;import JSON any time to back up or move data.</li></ol><h3 id="Tech"><a href="#Tech" class="headerlink" title="Tech"></a>Tech</h3><ul><li>SwiftUI (iOS)</li><li>iCloud sync (optional)</li><li>HealthKit write-only for push-up counts (optional)</li></ul><p>App Store link: (<a href="https://apps.apple.com/us/app/id6757068491">https://apps.apple.com/us/app/id6757068491</a>)</p><div class="gallery-container" data-type="data" data-button="" data-limit="10" data-first="10">    <div class="gallery-items">[{"url":"https://harry-studio.github.io/app/my/project/push-up/1.jpg","alt":"","title":""},{"url":"https://harry-studio.github.io/app/my/project/push-up/2.jpg","alt":"","title":""},{"url":"https://harry-studio.github.io/app/my/project/push-up/4.jpg","alt":"","title":""},{"url":"https://harry-studio.github.io/app/my/project/push-up/3.jpg","alt":"","title":""}]</div>  </div><script>// window.open("https://apps.apple.com/us/app/id6757068491");// javascript:history.go(-1)</script><p><a href="javascript:history.go(-1)">⬅return</a></p>]]></content>
+    
+    
+    <summary type="html">A lightweight push-up counter and log — permanently 100% free.</summary>
+    
+    
+    
+    <category term="iPhone" scheme="https://harry-studio.github.io/app/categories/iPhone/"/>
+    
+    
+    <category term="Health" scheme="https://harry-studio.github.io/app/tags/Health/"/>
+    
+  </entry>
+  
 </feed>
