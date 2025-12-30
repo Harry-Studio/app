@@ -150,7 +150,7 @@ btf.addGlobalFn('pjaxSend', () => {
 <li>🌏: canmeng_497269343</li>
 <li>🌏: Qin10121122</li>
 <li>🐧: 497269343</li>
-<li>📫: <a href="mailto:&#x68;&#97;&#111;&#x6c;&#101;&#105;&#113;&#64;&#103;&#x6d;&#x61;&#105;&#x6c;&#46;&#99;&#x6f;&#x6d;">haoleiq@gmail.com</a></li>
+<li>📫: <a href="mailto:&#x68;&#97;&#111;&#x6c;&#x65;&#x69;&#x71;&#x40;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#109;">haoleiq@gmail.com</a></li>
 <li>🔗: <a href="https://harry-studio.github.io/app">harry-studio.github.io&#x2F;outsource</a></li>
 <li>📍: 青岛</li>
 </ul>
@@ -160,7 +160,7 @@ btf.addGlobalFn('pjaxSend', () => {
 <li><a href="document.html">项目合作须知</a></li>
 </ul>
 <!-- <hr class='custom-hr'> -->
-</div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> Comments</span></div></div><div class="comment-wrap"><div><div id="gitalk-container"></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2017 - 2025 By Harry</div><div class="footer_custom_text"><a href="https://github.com/hexojs/hexo" target="_blank">Hexo 8.1.1</a> | <a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank">Butterfly 5.5.2</a></div><script src="/app/js/harry/index_showmore.js"></script></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Toggle Between Light and Dark Mode"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Settings"><i class="fas fa-cog fa-spin"></i></button><a id="to_comment" href="#post-comment" title="Scroll to Comments"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/app/js/utils.js"></script><script src="/app/js/main.js"></script><script src="/app/pluginsSrc/@fancyapps/ui/dist/fancybox/fancybox.umd.js"></script><div class="js-pjax"><script>(() => {
+</div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> Comments</span></div></div><div class="comment-wrap"><div><div id="gitalk-container"></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2017 - 2025 By Harry</div><div class="footer_custom_text"><a href="https://github.com/hexojs/hexo" target="_blank">Hexo 8.1.1</a> | <a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank">Butterfly 5.5.2</a></div><script src="/app/js/harry/index_showmore.js"></script></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Toggle Between Light and Dark Mode"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Settings"><i class="fas fa-cog fa-spin"></i></button><button id="chat-btn" type="button" title="Chat" style="display:none"><i class="fas fa-message"></i></button><a id="to_comment" href="#post-comment" title="Scroll to Comments"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="Back to Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/app/js/utils.js"></script><script src="/app/js/main.js"></script><script src="/app/pluginsSrc/@fancyapps/ui/dist/fancybox/fancybox.umd.js"></script><div class="js-pjax"><script>(() => {
   const abcjsInit = () => {
     const abcjsFn = () => setTimeout(() => {
       document.querySelectorAll(".abc-music-sheet").forEach(ele => {
@@ -236,4 +236,46 @@ btf.addGlobalFn('pjaxSend', () => {
 POWERMODE.shake = false;
 POWERMODE.mobile = true;
 document.body.addEventListener('input', POWERMODE);
-</script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  Loading Database</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Please enter your search query" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/app/js/search/local-search.js"></script></div></div></body></html>
+</script><script>(() => {
+  btf.getScript('//code.tidio.co/vhfggsoprmfj1s642o7poo2hcrq5mvfi.js').then(() => {
+    const isChatBtn = true
+    const isChatHideShow = false
+
+    if (isChatBtn) {
+      let isShow = false
+      const close = () => {
+        window.tidioChatApi.hide()
+        isShow = false
+      }
+      
+      const open = () => {
+        window.tidioChatApi.open()
+        window.tidioChatApi.show()
+        isShow = true
+      }
+
+      const onTidioChatApiReady = () => {
+        window.tidioChatApi.hide()
+        window.tidioChatApi.on("close", close)
+      }
+      if (window.tidioChatApi) {
+        window.tidioChatApi.on("ready", onTidioChatApiReady)
+      } else {
+        document.addEventListener("tidioChat-ready", onTidioChatApiReady)
+      }
+
+      window.chatBtnFn = () => {
+        if (!window.tidioChatApi) return
+        isShow ? close() : open()
+      }
+
+      document.getElementById('chat-btn').style.display = 'block'
+
+    } else if (isChatHideShow) {
+      window.chatBtn = {
+        hide: () => window.tidioChatApi && window.tidioChatApi.hide(),
+        show: () => window.tidioChatApi && window.tidioChatApi.show()
+      }
+    }
+  })
+})()</script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  Loading Database</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Please enter your search query" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/app/js/search/local-search.js"></script></div></div></body></html>
