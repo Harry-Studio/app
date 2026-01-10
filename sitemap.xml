@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://harry-studio.github.io/app/p/52148/</loc>
+    <loc>https://harry-studio.github.io/app/p/13912/</loc>
     
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-10</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +13,16 @@
   <url>
     <loc>https://harry-studio.github.io/app/p/13912/</loc>
     
-    <lastmod>2025-12-25</lastmod>
+    <lastmod>2026-01-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://harry-studio.github.io/app/p/52148/</loc>
+    
+    <lastmod>2026-01-08</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -76,7 +85,7 @@
 
   <url>
     <loc>https://harry-studio.github.io/app</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -84,14 +93,14 @@
   
   <url>
     <loc>https://harry-studio.github.io/app/tags/Health/</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://harry-studio.github.io/app/tags/Wealth/</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -100,7 +109,7 @@
   
   <url>
     <loc>https://harry-studio.github.io/app/categories/iPhone/</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
